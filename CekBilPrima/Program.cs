@@ -9,13 +9,13 @@ namespace CekBilPrima
             Console.WriteLine("Cek Bilangan Prima");
             Console.WriteLine("masukkan input angka");
             int input = (Convert.ToInt32(Console.ReadLine()));
-            if (input mod 1 == 0)
+            if (input % 1 == 0)
                 {
-                Console.WriteLine("Bilangan Prima ")
+                Console.WriteLine("Bilangan Prima");
                 }
-            else (input mod 1!==0)
+            else if (input % 1!=0)
                 {
-                Console.WriteLine("Bukan Bilangan Prima")
+                Console.WriteLine("Bukan Bilangan Prima");
                 }
         }
     }
